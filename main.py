@@ -1,8 +1,8 @@
 import pygame
 
-run1 = pygame.transform.flip(pygame.transform.scale(pygame.image.load("pixil-frame-0.png"),(160,70)),True,False)
-run2 = pygame.transform.flip(pygame.transform.scale(pygame.image.load("pixil-frame-0(1).png"),(160,70)),True,False)
-back = pygame.transform.scale(pygame.image.load("background.png"),(5000,500))
+run1 = pygame.transform.flip(pygame.transform.scale(pygame.image.load("assets/pixil-frame-0.png"),(160,70)),True,False)
+run2 = pygame.transform.flip(pygame.transform.scale(pygame.image.load("assets/pixil-frame-0(1).png"),(160,70)),True,False)
+back = pygame.transform.scale(pygame.image.load("assets/background.png"),(5000,500))
 guy = run1
 runcount = 0
 pygame.init()
